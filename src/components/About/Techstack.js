@@ -7,62 +7,57 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa"; 
+import { SiCsharp, SiDotnet, SiWindows, SiMysql } from "react-icons/si"; 
+import { GiCircuitry } from "react-icons/gi"; 
+import { MdOutlineMemory } from "react-icons/md"; 
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <CgCPlusPlus /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiReact /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiMongodb /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <FaGithub /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiJava /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiPython /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiMysql /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiNodejs /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiCsharp /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <GiCircuitry /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <MdOutlineMemory /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiWindows /> {}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiDotnet /> {}
       </Col>
     </Row>
   );
